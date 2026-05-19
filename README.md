@@ -1,11 +1,5 @@
 # 🎨 Pollinations MCP
 
-<div align="center">
-
-<img src="mcp.png" width="100%" alt="Pollinations MCP"/>
-
-<div align="center">
-
 [![npm version](https://img.shields.io/npm/v/pollinations-mcp?color=green&label=npm)](https://www.npmjs.com/package/pollinations-mcp)
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Mac%20%7C%20Linux-white)]()
@@ -15,8 +9,6 @@
 
 *Powered by [Pollinations.ai](https://pollinations.ai) — no API key, no cost, no limits.*
 
-</div>
-
 ---
 
 ## ✨ Features
@@ -24,7 +16,7 @@
 - 🚀 **Instant Image Generation** — Create any image from a text prompt
 - 🎯 **Smart Auto-Size** — Automatically detects best dimensions (logo, hero, banner, etc.)
 - 🔄 **Variants Generator** — Generate 2-5 variations for A/B testing
-- 📥 **Local Download** — Auto-saves images to local `images/` folder
+- 📥 **Download Support** — Get images as base64 for local use
 - 🌐 **Multi-Platform** — Works with Claude Desktop, Cursor, Windsurf, Cascade
 - 💰 **Completely Free** — No API key required
 
@@ -38,7 +30,7 @@
 | `generate_logo` | Create logos with brand-aware prompt building |
 | `generate_background` | Generate hero/section/card backgrounds |
 | `generate_variants` | Create 2-5 variants with different seeds |
-| `download_image` | Download image to local folder |
+| `download_image` | Download image as base64 data |
 
 ---
 
@@ -141,16 +133,10 @@ The tool automatically detects the best size based on your prompt:
 
 ---
 
-## 📂 Local Image Storage
-
-All generated images are automatically saved to the `images/` folder next to `index.js`.
-
----
-
 ## 🔧 How It Works
 
 1. Pollinations.ai generates images from prompts — no API key needed
-2. Images are automatically saved to local `images/` folder
+2. Images are returned as permanent URLs
 3. Same prompt + same seed = same image (deterministic)
 4. Use URLs directly in `<img>` tags or download via the tool
 
