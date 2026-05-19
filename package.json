@@ -1,0 +1,20 @@
+{
+  "name": "pollinations-mcp",
+  "version": "1.0.0",
+  "description": "Free AI image generation MCP for Windsurf via Pollinations.ai",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "node-fetch": "^3.3.2"
+  },
+  "type": "module",
+  "bin": {
+    "pollinations-mcp": "./index.js"
+  }
+}
