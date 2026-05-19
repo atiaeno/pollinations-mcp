@@ -1,11 +1,5 @@
 # 🎨 Pollinations MCP
 
-<div align="center">
-
-<img src="mcp.png" width="100%" alt="Pollinations MCP"/>
-
-<div align="center">
-
 [![npm version](https://img.shields.io/npm/v/pollinations-mcp?color=green&label=npm)](https://www.npmjs.com/package/pollinations-mcp)
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Mac%20%7C%20Linux-white)]()
@@ -14,8 +8,6 @@
 **Free AI image generation MCP server for Claude Desktop, Cursor, Windsurf, Cascade, and any MCP client.**
 
 *Powered by [Pollinations.ai](https://pollinations.ai) — no API key, no cost, no limits.*
-
-</div>
 
 ---
 
