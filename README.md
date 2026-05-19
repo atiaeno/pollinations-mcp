@@ -1,5 +1,7 @@
 # 🎨 Pollinations MCP
 
+<img src="mcp.png" width="100%" alt="Pollinations MCP"/>
+
 [![npm version](https://img.shields.io/npm/v/pollinations-mcp?color=green&label=npm)](https://www.npmjs.com/package/pollinations-mcp)
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Mac%20%7C%20Linux-white)]()
